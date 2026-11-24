@@ -65,8 +65,7 @@ A3_Portfolio_KieuCaoThang/
 5. Chờ GitHub Pages triển khai và mở URL được cung cấp để kiểm tra.
 
 **Repository:** *(sinh viên điền đường dẫn repository thực tế)*  
-**Website:** *(sinh viên điền URL GitHub Pages thực tế)*  
-**Phiên bản nộp:** *(sinh viên tạo tag/release sau khi hoàn thiện)*
+**Website:** (https://caothangzzz55-cmyk.github.io/fit4014-a3-Portfolio/)
 
 ## 7. Tài liệu và minh chứng
 
