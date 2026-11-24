@@ -21,11 +21,11 @@
 - Chạy kiểm thử tự động trong môi trường giả lập và sửa 1 lỗi CSS.
 
 ## 3. Phần do em tự làm *(điền thật, ví dụ)*
-- [ ] Đọc, hiểu và thử sửa mã (đổi màu, số cột, nội dung)
-- [ ] Thay nội dung cá nhân thật (giới thiệu, kỹ năng, dự án, email, GitHub)
-- [ ] Tạo repository, commit, bật GitHub Pages
-- [ ] Tự thử trên URL công khai và điện thoại thật, chụp minh chứng
-- [ ] Viết lại báo cáo bằng lời của mình
+- Đọc, hiểu và thử sửa mã (đổi màu, số cột, nội dung)
+- Thay nội dung cá nhân thật (giới thiệu, kỹ năng, dự án, email, GitHub)
+- Tạo repository, commit, bật GitHub Pages
+- Tự thử trên URL công khai và điện thoại thật, chụp minh chứng
+- Viết lại báo cáo bằng lời của mình
 
 ## 4. Giới hạn và kiểm soát chất lượng
 AI có thể sai. Các kết quả kiểm thử trong tệp `docs/evidence/` do AI chạy trong môi trường giả lập, chưa thay thế việc em tự thử trên URL thật và thiết bị thật.
