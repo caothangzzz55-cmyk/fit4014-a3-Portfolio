@@ -64,7 +64,7 @@ A3_Portfolio_KieuCaoThang/
 4. Chọn nhánh `main` và thư mục `/ (root)`, sau đó lưu.
 5. Chờ GitHub Pages triển khai và mở URL được cung cấp để kiểm tra.
 
-**Repository:** *(sinh viên điền đường dẫn repository thực tế)*  
+**Repository:** (https://github.com/caothangzzz55-cmyk/fit4014-a3-Portfolio.git)  
 **Website:** (https://caothangzzz55-cmyk.github.io/fit4014-a3-Portfolio/)
 
 ## 7. Tài liệu và minh chứng
