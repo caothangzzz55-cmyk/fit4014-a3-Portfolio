@@ -69,11 +69,8 @@ A3_Portfolio_KieuCaoThang/
 
 ## 7. Tài liệu và minh chứng
 
-- Báo cáo: `docs/BAO_CAO.md` và `docs/BAO_CAO.docx`.
+- Báo cáo: `docs/BAO_CAO.docx`.
 - Nhật ký sử dụng AI: `docs/AI_LOG.md`.
-- Chuẩn bị vấn đáp: `docs/VAN_DAP.md`.
-- Kịch bản trình bày: `docs/KICH_BAN_DEMO.md`.
-- Checklist trước khi nộp: `docs/CHECKLIST_NOP_BAI.md`.
 - Danh mục minh chứng: `docs/evidence-index.md`.
 
 ## 8. Hạn chế và việc cần hoàn thiện
@@ -82,10 +79,3 @@ A3_Portfolio_KieuCaoThang/
 - Form liên hệ chỉ mở ứng dụng email thông qua `mailto`; website chưa có backend hoặc cơ sở dữ liệu.
 - Cần tự kiểm tra lại website trên trình duyệt, điện thoại và URL GitHub Pages thực tế.
 - Cần cập nhật URL, repository, lịch sử commit và phiên bản sau khi triển khai.
-
-## 9. Ghi nhận tài liệu tham khảo cấu trúc
-
-Cách tổ chức thư mục và tài liệu tham khảo theo repository mẫu FIT4014 Audi Việt Nam:  
-https://github.com/vanhkazen/fit4014-a3-audi-vietnam
-
-Nội dung và chủ đề của dự án này vẫn là portfolio cá nhân; chỉ áp dụng cách phân chia thư mục và tổ chức tài liệu, không sao chép nội dung website Audi.
