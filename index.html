@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kiều Cao Thăng | Portfolio</title>
+  <meta name="description" content="Portfolio cá nhân của Kiều Cao Thăng - sinh viên năm nhất Khoa Công nghệ thông tin, Đại học Đại Nam.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Bỏ qua điều hướng</a>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header class="header" id="top">
+    <nav class="nav container" aria-label="Điều hướng chính">
+      <a href="#top" class="logo">KCT<span>.</span></a>
+      <input type="checkbox" id="navToggle" class="nav-check" aria-label="Mở menu">
+      <label for="navToggle" class="nav-toggle" aria-hidden="true"><span></span><span></span><span></span></label>
+      <ul class="menu" id="menu">
+        <li><a href="#about">Giới thiệu</a></li>
+        <li><a href="#skills">Kỹ năng</a></li>
+        <li><a href="#journey">Hành trình</a></li>
+        <li><a href="#projects">Dự án</a></li>
+        <li><a href="#contact" class="btn btn-small">Liên hệ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow">Xin chào, mình là</p>
+          <h1>Kiều Cao <span class="grad">Thăng</span></h1>
+          <p class="role">Sinh viên CNTT năm nhất · Đại học Đại Nam</p>
+          <p class="lead">Mình đang học nền tảng lập trình và thiết kế web. Trang này là bài tập lớn A3 và cũng là nơi mình ghi lại những gì đã học được.</p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn">Xem dự án</a>
+            <a href="#contact" class="btn btn-ghost">Liên hệ mình</a>
+          </div>
+          <ul class="stats">
+            <li><strong>Năm 1</strong><span>Khoa CNTT</span></li>
+            <li><strong>HTML5</strong><span>CSS3 · Responsive</span></li>
+            <li><strong>2071020168</strong><span>Mã sinh viên</span></li>
+          </ul>
+        </div>
+        <div class="hero-card reveal" aria-hidden="true">
+          <div class="avatar">KT<img src="assets/images/kct.jpg" alt="Ảnh chân dung Kiều Cao Thăng" onerror="this.remove()"></div>
+          <div class="code-card">
+            <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+            <pre><code>const sinhVien = {
+  ten: "Kiều Cao Thăng",
+  nganh: "Công nghệ thông tin",
+  dangHoc: ["HTML", "CSS", "Git"],
+  mucTieu: "Trở thành lập trình viên"
+};</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="reveal">Giới thiệu bản thân</h2>
+        <div class="about-grid">
+          <div class="reveal">
+            <p>Mình là Kiều Cao Thăng, sinh viên năm nhất Khoa Công nghệ thông tin, Trường Đại học Đại Nam. Mình chọn ngành này vì thích tìm hiểu cách một sản phẩm số được làm ra, từ giao diện đến cách nó chạy phía sau.</p>
+            <p>Hiện tại mình đang ở giai đoạn xây nền: học HTML5, CSS3, làm quen Git/GitHub và tập tư duy thiết kế trang web có lý do chứ không chỉ cho đẹp.</p>
+          </div>
+          <ul class="facts reveal">
+            <li><b>Họ tên</b> Kiều Cao Thăng</li>
+            <li><b>MSV</b> 2071020168</li>
+            <li><b>Trường</b> Đại học Đại Nam</li>
+            <li><b>Khoa</b> Công nghệ thông tin</li>
+            <li><b>Hướng học</b> Web, lập trình cơ bản</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section alt" id="skills">
+      <div class="container">
+        <h2 class="reveal">Kỹ năng</h2>
+        <p class="sub reveal">Mức độ là tự đánh giá hiện tại của mình, không phải chuyên gia.</p>
+        <div class="skills-grid">
+          <div class="skill reveal"><div class="skill-head"><span>HTML5</span><em>70%</em></div><div class="bar"><i style="--w:70%"></i></div></div>
+          <div class="skill reveal"><div class="skill-head"><span>CSS3 / Responsive</span><em>60%</em></div><div class="bar"><i style="--w:60%"></i></div></div>
+          <div class="skill reveal"><div class="skill-head"><span>Git / GitHub</span><em>45%</em></div><div class="bar"><i style="--w:45%"></i></div></div>
+          <div class="skill reveal"><div class="skill-head"><span>Tư duy thuật toán (đang học)</span><em>35%</em></div><div class="bar"><i style="--w:35%"></i></div></div>
+          <div class="skill reveal"><div class="skill-head"><span>Làm việc nhóm &amp; trình bày</span><em>60%</em></div><div class="bar"><i style="--w:60%"></i></div></div>
+          <div class="skill reveal"><div class="skill-head"><span>Tiếng Anh đọc tài liệu</span><em>50%</em></div><div class="bar"><i style="--w:50%"></i></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== JOURNEY ===== -->
+    <section class="section" id="journey">
+      <div class="container">
+        <h2 class="reveal">Hành trình học tập</h2>
+        <ol class="timeline">
+          <li class="reveal"><time>Học kỳ 1</time><h3>Bắt đầu ngành CNTT</h3><p>Làm quen môi trường đại học, các môn nền tảng và công cụ lập trình.</p></li>
+          <li class="reveal"><time>Môn Thiết kế web</time><h3>Học HTML5 / CSS3</h3><p>Học cấu trúc trang, thẻ ngữ nghĩa, bố cục Flexbox/Grid và giao diện đáp ứng.</p></li>
+          <li class="reveal"><time>Bài tập lớn A3</time><h3>Portfolio cá nhân</h3><p>Làm website tĩnh từ yêu cầu, wireframe, mã nguồn, kiểm thử đến triển khai GitHub Pages.</p></li>
+          <li class="reveal"><time>Sắp tới</time><h3>Lập trình &amp; dự án lớn hơn</h3><p>Học thêm lập trình, làm dự án có tương tác và tích lũy kinh nghiệm làm việc nhóm.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section alt" id="projects">
+      <div class="container">
+        <h2 class="reveal">Dự án</h2>
+        <div class="cards">
+          <article class="card reveal">
+            <div class="thumb t1">A3</div>
+            <h3>Portfolio cá nhân</h3>
+            <p>Website tĩnh giới thiệu bản thân, responsive, triển khai bằng GitHub Pages.</p>
+            <ul class="tags"><li>HTML5</li><li>CSS3</li><li>Responsive</li></ul>
+          </article>
+          <article class="card reveal">
+            <div class="thumb t2">Git</div>
+            <h3>Quản lý mã nguồn với Git</h3>
+            <p>Tạo repository, commit theo từng bước, đẩy lên GitHub để có lịch sử phiên bản.</p>
+            <ul class="tags"><li>Git</li><li>GitHub</li></ul>
+          </article>
+          <article class="card reveal">
+            <div class="thumb t3">+</div>
+            <h3>Dự án tiếp theo</h3>
+            <p>Chỗ dành cho bài tập/dự án mình sẽ hoàn thành trong các học kỳ sau.</p>
+            <ul class="tags"><li>Sắp có</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section" id="contact">
+      <div class="container contact">
+        <div class="reveal">
+          <h2>Liên hệ</h2>
+          <p>Nếu muốn trao đổi hoặc góp ý cho trang này, bạn có thể gửi tin nhắn cho mình.</p>
+          <ul class="facts">
+            <li><b>Email</b> <a href="mailto:caothangzzz55@gmail.com">caothangzzz55@gmail.com</a></li>
+            <li><b>GitHub</b> <a href="https://github.com/caothangzzz55-cmyk" target="_blank" rel="noopener">github.com/caothangzzz55-cmyk</a></li>
+          </ul>
+        </div>
+        <form class="form reveal" action="mailto:caothangzzz55@gmail.com" method="post" enctype="text/plain">
+          <label>Họ tên<input type="text" name="ho_ten" required autocomplete="name"></label>
+          <label>Email<input type="email" name="email" required autocomplete="email"></label>
+          <label>Nội dung<textarea name="noi_dung" rows="4" minlength="5" required></textarea></label>
+          <button class="btn" type="submit">Gửi tin nhắn</button>
+          <p class="form-hint">Bấm gửi sẽ mở ứng dụng email trên máy của bạn.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Kiều Cao Thăng · MSV 2071020168 · Bài tập lớn A3, Thiết kế web và triển khai HTPM, Đại học Đại Nam</p>
+    </div>
+  </footer>
+
+  <a class="to-top" href="#top" aria-label="Lên đầu trang">↑</a>
+</body>
+</html>

@@ -1,0 +1,24 @@
+KẾT QUẢ KIỂM THỬ TỰ ĐỘNG (do công cụ AI chạy, KHÔNG phải sinh viên tự thao tác)
+Ngày chạy: 21/11/2026 | Môi trường: Google Chrome headless trong máy chủ giả lập, mở tệp cục bộ (file://), chưa phải URL GitHub Pages
+Phiên bản đo: bản KHÔNG dùng JavaScript (trang không có thẻ <script>). Sinh viên cần chạy lại trên máy mình / điện thoại thật.
+
+[Màn hình hẹp, khung rộng đúng 375px (đo bằng iframe)]
+- Tràn ngang: không (scrollWidth = 375, innerWidth = 375) ................................. ĐẠT
+- Lỗi đã gặp trước đó: lần đo đầu scrollWidth = 405 (email dài ở mục Liên hệ); đã sửa trong style.css bằng
+  min-width:0, flex-wrap, overflow-wrap:anywhere, minmax(0,1fr)
+
+[Menu điện thoại (checkbox + CSS)]
+- Chưa tick: max-height = 0px; tick: 380px; bỏ tick: 0px (đo khi tắt transition) ............ ĐẠT
+- Lưu ý: khi đo có hiệu ứng chuyển, giá trị đọc ngay còn 0px do đồng hồ ảo của Chrome headless, không phải lỗi CSS.
+
+[Form (thuộc tính HTML5)]
+- Form để trống: checkValidity() = false ................................................... ĐẠT
+- Email "abc": email.validity.valid = false ................................................ ĐẠT
+- Họ tên + email đúng + nội dung đủ: checkValidity() = true ................................ ĐẠT
+- action = mailto:EMAIL_CUA_EM@example.com, method = post
+- minlength của ô nội dung: CHƯA KIỂM TRA (chỉ có tác dụng khi người dùng tự gõ)
+
+[Cấu trúc]
+- 0 thẻ script, 1 thẻ h1, mọi liên kết #anchor đều có phần tử đích ......................... ĐẠT
+
+[Chưa kiểm tra] mở URL công khai, gửi form hợp lệ (mailto thật), Edge/Firefox, điện thoại thật, liên kết ngoài.
