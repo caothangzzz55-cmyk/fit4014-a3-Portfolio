@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kết quả bài tập lớn A3 | Kiều Cao Thăng</title>
+  <meta name="description" content="Tổng kết kết quả bài tập lớn A3 - Portfolio cá nhân của Kiều Cao Thăng, Đại học Đại Nam.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Bỏ qua điều hướng</a>
+
+  <header class="header" id="top">
+    <nav class="nav container" aria-label="Điều hướng chính">
+      <a href="index.html" class="logo">KCT<span>.</span></a>
+      <input type="checkbox" id="navToggle" class="nav-check" aria-label="Mở menu">
+      <label for="navToggle" class="nav-toggle" aria-hidden="true"><span></span><span></span><span></span></label>
+      <ul class="menu" id="menu">
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="#tomtat">Tóm tắt</a></li>
+        <li><a href="#yeucau">Đối chiếu yêu cầu</a></li>
+        <li><a href="#caithien">Cải thiện</a></li>
+        <li><a href="index.html#contact" class="btn btn-small">Liên hệ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container">
+        <div class="hero-text reveal">
+          <p class="eyebrow">Bài tập lớn A3</p>
+          <h1>Kết quả <span class="grad">hoàn thành</span></h1>
+          <p class="role">Portfolio cá nhân · Thiết kế web và triển khai HTPM</p>
+          <p class="lead">Trang này tổng kết những gì mình đã làm được trong bài tập lớn A3 và những điểm còn có thể làm tốt hơn.</p>
+          <div class="hero-actions">
+            <a href="index.html" class="btn">Xem portfolio</a>
+            <a href="https://github.com/caothangzzz55-cmyk/fit4014-a3-Portfolio" class="btn btn-ghost" target="_blank" rel="noopener">Mã nguồn trên GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="tomtat">
+      <div class="container">
+        <h2 class="reveal">Tóm tắt kết quả</h2>
+        <div class="cards">
+          <article class="card reveal">
+            <div class="thumb t1">01</div>
+            <h3>Website hoàn chỉnh</h3>
+            <p>Portfolio một trang gồm các phần Giới thiệu, Kỹ năng, Hành trình, Dự án và Liên hệ.</p>
+            <ul class="tags"><li>HTML5</li><li>CSS3</li></ul>
+          </article>
+          <article class="card reveal">
+            <div class="thumb t2">02</div>
+            <h3>Giao diện đáp ứng</h3>
+            <p>Bố cục tự chuyển cột và thu gọn menu trên máy tính bảng và điện thoại.</p>
+            <ul class="tags"><li>Responsive</li><li>Flexbox</li><li>Grid</li></ul>
+          </article>
+          <article class="card reveal">
+            <div class="thumb t3">03</div>
+            <h3>Triển khai trực tuyến</h3>
+            <p>Mã nguồn lưu trên GitHub và được đưa lên web bằng GitHub Pages.</p>
+            <ul class="tags"><li>Git</li><li>GitHub Pages</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="yeucau">
+      <div class="container">
+        <h2 class="reveal">Đối chiếu yêu cầu</h2>
+        <p class="sub reveal">Mỗi dòng là một yêu cầu của bài tập và cách mình đã đáp ứng.</p>
+        <ul class="facts reveal">
+          <li><b>Cấu trúc</b> Tách HTML (index.html) và CSS (css/styles.css) thành hai file riêng.</li>
+          <li><b>Ngữ nghĩa</b> Dùng các thẻ header, nav, main, section, article, footer.</li>
+          <li><b>Responsive</b> Có điểm ngắt ở 900px và 680px, menu dạng nút bấm trên điện thoại.</li>
+          <li><b>Truy cập</b> Có liên kết bỏ qua điều hướng, thuộc tính alt cho ảnh, hiển thị rõ khi dùng bàn phím.</li>
+          <li><b>Liên hệ</b> Form có kiểm tra dữ liệu và mở ứng dụng email của người dùng.</li>
+          <li><b>Git</b> Mã nguồn được commit lên GitHub, có README và CHANGELOG.</li>
+          <li><b>Triển khai</b> Trang chạy trên GitHub Pages.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="caithien">
+      <div class="container">
+        <h2 class="reveal">Hạn chế và hướng cải thiện</h2>
+        <ol class="timeline">
+          <li class="reveal"><time>Form liên hệ</time><h3>Chưa gửi trực tiếp</h3><p>Form hiện chỉ mở ứng dụng email trên máy người dùng. Sau này có thể dùng dịch vụ nhận form hoặc backend.</p></li>
+          <li class="reveal"><time>Tương tác</time><h3>Chưa có JavaScript</h3><p>Trang chủ yếu là nội dung tĩnh. Mình sẽ học JavaScript để thêm các tính năng tương tác.</p></li>
+          <li class="reveal"><time>Dự án</time><h3>Còn chỗ trống</h3><p>Thẻ "Dự án tiếp theo" sẽ được thay bằng sản phẩm thật ở các học kỳ sau.</p></li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Kiều Cao Thăng · MSV 2071020168 · Bài tập lớn A3, Thiết kế web và triển khai HTPM, Đại học Đại Nam</p>
+    </div>
+  </footer>
+
+  <a class="to-top" href="#top" aria-label="Lên đầu trang">↑</a>
+</body>
+</html>
