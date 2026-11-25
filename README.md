@@ -32,6 +32,7 @@ Dự án hiện sử dụng HTML/CSS thuần, không dùng framework và không 
 ```text
 A3_Portfolio_KieuCaoThang/
 ├── index.html
+├── ket-qua.html
 ├── css/
 │   └── styles.css
 ├── assets/
