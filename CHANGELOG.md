@@ -11,6 +11,7 @@ Các thay đổi đáng chú ý của dự án, theo từng phiên bản.
 ### Changed
 - Làm sáng nền thẻ "Git" và "Dự án tiếp theo" trong phần Dự án
 - Viết lại `README.md` theo cấu trúc thư mục mới
+- Rename style.css to styles.css
 
 ### Fixed
 - Bỏ hiệu ứng hiện dần theo cuộn làm nội dung bị trống khi chụp toàn trang
