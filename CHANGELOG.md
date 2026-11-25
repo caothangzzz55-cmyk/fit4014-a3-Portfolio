@@ -1,16 +1,27 @@
-# CHANGELOG
+# Changelog
 
-Các thay đổi của dự án được ghi theo từng phiên bản.
+Các thay đổi đáng chú ý của dự án, theo từng phiên bản.
 
-## 1.1.0 – Tổ chức lại cấu trúc dự án
+## [1.2.0] - 2026-11-25
+### Added
+- Trang `ket-qua.html` tổng kết kết quả bài tập lớn A3
+- Báo cáo `docs/BAO_CAO.md`
+- Liên kết "Kết quả" trên menu trang chủ
 
-- Chuyển tệp CSS vào `css/styles.css` và cập nhật đường dẫn trong `index.html`.
-- Gom báo cáo, nhật ký AI, tài liệu vấn đáp, kịch bản demo và checklist vào `docs/`.
-- Gom ảnh wireframe, ảnh giao diện và kết quả kiểm thử vào `docs/evidence/`.
-- Bổ sung README theo cấu trúc repository mẫu Audi Việt Nam.
-- Bổ sung danh mục minh chứng và tệp CHANGELOG.
+### Changed
+- Làm sáng nền thẻ "Git" và "Dự án tiếp theo" trong phần Dự án
+- Viết lại `README.md` theo cấu trúc thư mục mới
 
-## 1.0.0 – Bản ban đầu
+### Fixed
+- Bỏ hiệu ứng hiện dần theo cuộn làm nội dung bị trống khi chụp toàn trang
 
-- Website portfolio cá nhân bằng HTML5 và CSS3.
-- Có các khu vực giới thiệu, kỹ năng, hành trình học tập, dự án và liên hệ.
+## [1.1.0] - 2026-11-25
+### Added
+- Ảnh cá nhân trong khung tròn ở phần đầu trang (`assets/images/anh-ca-nhan.jpg`)
+- Dự phòng chữ "KT" khi chưa có ảnh
+
+## [1.0.0] - 2026-11-25
+### Added
+- Portfolio cá nhân gồm 6 phần: Hero, Giới thiệu, Kỹ năng, Hành trình, Dự án, Liên hệ
+- Giao diện responsive, bảng màu tím và cyan
+- Triển khai lên GitHub Pages
